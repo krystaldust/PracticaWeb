@@ -1,0 +1,125 @@
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    background-color:none;
+}
+            
+body, html{
+    height: 100vh;
+    width:100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    width: 120px;
+    
+}
+
+.textonav {
+    text-decoration: none;
+}
+
+.informacion {
+	text-align: center;
+	margin: 50px;
+	padding: 200px;
+}
+
+
+              
+.back{
+    height: 100%;
+    top: 0; 
+                      
+}
+
+div[class^='slide']{
+    float:left;
+}
+               
+.fondo{
+    height: 100vh;
+    float:left;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+                   
+}
+
+#logo{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    width: 400px;
+    opacity: .7;
+}
+
+#logo2{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    z-index: 99;
+    width: 400px;
+    opacity: 0.2;
+
+}
+
+#navegador{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    
+    width: 200px;
+}
+
+
+#logo {
+    transition: -webkit-filter 1s, filter 1s;
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+                
+#logo:hover, .inverted {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.bio {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 120;
+    width: 500px;
+    
+}
+
+.tabla-obras {
+    text-align: center; 
+    position: relative;
+    
+}
+
+.obras-img-tabla {
+    border: 0; 
+    margin: 0 auto;
+  
+}
+
+.section-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
